@@ -1,0 +1,58 @@
+body {
+    background: #fafafa;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.image {
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.image img {
+    width: 1000px;
+    
+}
+
+.login {
+    width:20%;
+    border: 1px solid rgb(38,38,38, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    padding-top: 30px;
+}
+
+.login .signup {
+    display: contents;
+}
+
+.login .signup img {
+    width: 250px;
+}
+
+.login .signup input {
+    margin-top:10px;
+    height:40px;
+    width: 80%;
+    border: 1px solid rgb(38,38,38, 0.2);
+    border-radius: 5px;
+}
+
+.login .signup button {
+    background-color: #0095f6;
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
